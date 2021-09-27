@@ -15,6 +15,11 @@ export default function Hello() {
                     problem-solving, <br className="hidden md:inline-block"/> self-starter with a positive attitude.
                 </p>
                 <Contact/>
+                <div className="rounded-xl bg-gray-800 py-2 dark:bg-gray-100 mb-4 md:w-28 ">
+                    <a href="/resumen/resumenmoedano.pdf" className="flex items-center justify-center w-full" download="Alberto-Moedano-Resume" >
+                        <span className=" font-medium text-base text-gray-50 dark:text-gray-800">Resume</span>
+                    </a>
+                </div>
             </div>
             <div className="md:w-1/2 md:px-10">
                 <img src={myPhoto} alt={{}}/>
