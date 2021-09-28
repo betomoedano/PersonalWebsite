@@ -4,7 +4,7 @@ import underchatincon from "../assets/underchaticon.png"
 
 export default function Lovers() {
     return (
-    <div className="w-full h-auto md:relative py-20">
+    <div className="w-full h-auto md:relative py-20 px-4">
         <div className="md:p-0 max-w-5xl mx-auto flex flex-col md:flex-row">
             <div className="md:w-1/2 flex flex-col items-center justify-center">
                 <div className="flex items-center mb-4 w-full">
@@ -13,8 +13,8 @@ export default function Lovers() {
                 </div>
                 <p className="mb-8 w-full text-3xl font-medium text-gray-700 dark:text-gray-50">Simple, clean, real-time chat app.</p>
                 <p className="text-base text-left md:text-md leading-loose md:font-normal text-gray-700 dark:text-gray-50">
-                    UnderChat is a multi-user chat aplication built in react native and using AWS for the backend. It has features like: 
-                    Push Notifications, Start a chat just by typing the username, Authentication, Profile pictures.
+                UnderChat is a multi-user chat application that allows users to add users by quickly searching their username, can add profile pictures, 
+                update statuses, and provides authentication. This app was developed using React Native and AWS. 
                 </p>
             </div>
             <div className="md:w-1/2 p-4">

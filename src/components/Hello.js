@@ -5,7 +5,7 @@ import Contact from './Contact';
 
 export default function Hello() {
     return (
-    <div className="w-full h-auto md:relative mb-32">
+    <div className="w-full h-auto md:relative mb-32 px-4">
         <div className="flex flex-col md:flex-row max-w-5xl mx-auto py-20 h-full px-2">
             <div className="md:w-1/2 md:pt-10">
                 <h1 className="mb-4 text-7xl md:text-8xl font-bold text-gray-700 dark:text-gray-50">Hello, I am <br/> Alberto</h1>
