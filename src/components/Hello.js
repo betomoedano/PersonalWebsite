@@ -8,16 +8,16 @@ export default function Hello() {
     <div className="w-full h-auto md:relative mb-32">
         <div className="flex flex-col md:flex-row max-w-5xl mx-auto py-20 h-full px-2">
             <div className="md:w-1/2 md:pt-10">
-                <h1 className="mb-4 text-5xl md:text-8xl font-bold text-gray-700 dark:text-gray-50">Hello, I am <br/> Alberto</h1>
+                <h1 className="mb-4 text-7xl md:text-8xl font-bold text-gray-700 dark:text-gray-50">Hello, I am <br/> Alberto</h1>
                 <h2 className="mb-8 text-md md:text-3xl font-medium text-gray-700 dark:text-gray-50">Software Engineer</h2>   
                 <p className="mb-4 text-base md:text-left md:text-md leading-loose md:font-normal text-gray-700 dark:text-gray-50">
                     I'm a passionate Software Developer who likes to spend hours coding, entrepreneur, fast learner, hard worker, 
                     problem-solving, <br className="hidden md:inline-block"/> self-starter with a positive attitude.
                 </p>
                 <Contact/>
-                <div className="rounded-xl bg-gray-800 py-2 dark:bg-gray-100 mb-4 md:w-28 ">
-                    <a href="/resumen/resumenmoedano.pdf" className="flex items-center justify-center w-full" download="Alberto-Moedano-Resume" >
-                        <span className=" font-medium text-base text-gray-50 dark:text-gray-800">Resume</span>
+                <div className="rounded-xl bg-gray-800 py-2 dark:bg-gray-100 mb-4 md:w-48 ">
+                    <a href="/resumen/resumenmoedano.pdf" className="flex items-center justify-center w-full" download="Alberto-Moedano-Resume" target="_blank">
+                        <span className=" font-medium text-base text-gray-50 dark:text-gray-800">Download Resume</span>
                     </a>
                 </div>
             </div>
