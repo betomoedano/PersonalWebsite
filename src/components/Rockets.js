@@ -14,8 +14,10 @@ export default function Rockets() {
                     <h1 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-50 mr-4">Rockets X</h1>
                     <img src={rocketsicon} alt="rocket-icon" className="md:w-24 md:h-24" />
                 </div>
-                <p className="mb-8 text-3xl font-medium text-gray-700 dark:text-gray-50">Fun, simple and challenging</p>
-                <p className="text-base text-left md:text-md leading-loose md:font-normal text-gray-700 dark:text-gray-50 mb-8">Rockets X is a cassual fun game with a friendly UI it has  many features like; Leaderboards, Achievements, In game currency, In-App Purchasses and adds.</p>
+                <p className="mb-8 text-3xl font-medium text-gray-700 dark:text-gray-50">Fun, simple, and challenging</p>
+                <p className="text-base text-left md:text-md leading-loose md:font-normal text-gray-700 dark:text-gray-50 mb-8">
+                Rockets X provides users a casual entertaining game with an intuitive and friendly UI. Features such as leaderboards, 
+                achievements, in-game currency, in-app purchases, and ads are included to enhance user experience. </p>
             </div>
         </div>
     </div>
